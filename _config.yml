@@ -1,0 +1,26 @@
+safe: true
+permalink: /:title.html
+exclude: [ assets ]
+markdown: kramdown
+
+default_theme: yandex
+default_width: 792
+default_lang: ru
+default_body_class: list
+
+kramdown:
+  enable_coderay: false
+
+presentation:
+    title: Эксперимент — инструмент принятия решений
+    service: Диск
+
+author:
+    name: Виктор Карпов
+    position: Разработчик интерфейсов
+    link: http://vitkarpov.com
+    company:
+        name: Яндекс
+        url:  http://yandex.ru/
+
+progress: true
