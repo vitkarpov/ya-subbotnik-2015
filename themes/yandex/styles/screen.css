@@ -60,7 +60,7 @@ body .slide:first-of-type h2,
 
 .slide#cover > div::before
 {
-    content: 'Ð¯';
+    content: 'Я';
 
     color: #f00;
 }
@@ -69,7 +69,7 @@ body .slide:first-of-type h2,
 {
     margin-left: .45em;
 
-    content: 'Ð½Ð´ÐµÐºÑ';
+    content: 'ндекс';
 }
 
 .slide#cover .author,
