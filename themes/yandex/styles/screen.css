@@ -60,7 +60,7 @@ body .slide:first-of-type h2,
 
 .slide#cover > div::before
 {
-    content: 'Я';
+    content: 'Ð¯';
 
     color: #f00;
 }
@@ -69,7 +69,7 @@ body .slide:first-of-type h2,
 {
     margin-left: .45em;
 
-    content: 'ндекс';
+    content: 'Ð½Ð´ÐµÐºÑ';
 }
 
 .slide#cover .author,
@@ -436,6 +436,7 @@ body .slide:first-of-type h2
     text-decoration: none;
 
     color: #0174a7;
+    border-bottom: .1em solid;
 }
 
 /* Quote */
@@ -637,10 +638,6 @@ body .slide:first-of-type h2
     margin-bottom: 23px;
 }
 
-.slide pre {
-    margin-left: 50px;
-}
-
 /* Lists */
 .slide ol,
 .slide ul
@@ -684,11 +681,14 @@ body .slide:first-of-type h2
 {
     margin-left: 21px;
 
-    content: '\0';
+    content: 'ã€‰ ';
+    content: '';
+    display: inline-block;
 
     border-left: 5px solid rgb(254,195,0);
+    vertical-align: sub;
 
-    line-height: 25px;
+    height: 1em;
 }
 
 .slide ul ul > li:lang(ru):before
@@ -696,7 +696,7 @@ body .slide:first-of-type h2
     position: relative;
     left: -4px;
 
-    content: '〉 ';
+    content: 'ã€‰ ';
 
     font-weight: normal;
 }
@@ -830,11 +830,8 @@ body .slide:first-of-type h2
 
 }
 
-.images.row img {
-  width: 300px;
-}
-
-.slide h3 {
-  margin: 30px 0;
-  font-weight: bold;
+.slide.shout h2 a {
+    color: #52a2df;
+    background: none;
+    border: none;
 }
