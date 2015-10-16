@@ -8,6 +8,10 @@ style: |
       width: 300px;
     }
 
+    .slide pre {
+        margin-left: 50px;
+    }
+
 ---
 
 # Яндекс
