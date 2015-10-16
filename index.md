@@ -2,6 +2,12 @@
 
 layout: default
 
+style: |
+
+    .images.row img {
+      width: 300px;
+    }
+
 ---
 
 # Яндекс
